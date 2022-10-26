@@ -1,5 +1,6 @@
 # Hacktoberfest 2022
-
+ Add python code to solve the issues.
+ 
 1. Complete the registartion over https://hacktoberfest.com/
 2. Fork this repository.
 3. Clone on your local machine.
