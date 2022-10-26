@@ -45,3 +45,20 @@ numbers = [2, 53, 11, 565]
 numbers.sort(reverse = True)
   
 print("Numbers sorted in descending order array: " + str(numbers));
+
+
+#Multiply Every number in Array Item with each other in sequence order #5
+
+def multiplyList(myList):
+ 
+    # Multiply elements one by one
+    result = 1
+    for x in myList:
+        result = result * x
+    return result
+ 
+list1 = [2, 3, 5]
+list2 = [3, 5, 4]
+print(multiplyList(list1))
+print(multiplyList(list2))
+
