@@ -35,3 +35,13 @@ for i in range(0, len(arr)):
         max = arr[i];    
                
 print("Largest number present in given array: " + str(max));   
+
+
+#Sorting list of Integers in descending in an array #4
+
+numbers = [2, 53, 11, 565]
+
+# Sorting list of Integers in descending
+numbers.sort(reverse = True)
+  
+print("Numbers sorted in descending order array: " + str(numbers));
