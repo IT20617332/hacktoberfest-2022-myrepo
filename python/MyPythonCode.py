@@ -87,3 +87,16 @@ for number in range(1, maximum+1):
 
 print("The Sum of Odd Numbers from 1 to {0} = {1}".format(number, Oddtotal))
 
+
+# Create Reverse the Order of Words #8
+
+# input string
+string = "my car is yellow colour"
+# reversing words in a given string
+s = string.split()[::-1]
+l = []
+for i in s:
+    # apending reversed words to l
+    l.append(i)
+# printing reverse words
+print(" ".join(l))
