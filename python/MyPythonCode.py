@@ -62,3 +62,16 @@ list2 = [3, 5, 4]
 print(multiplyList(list1))
 print(multiplyList(list2))
 
+
+
+# Code to remove duplicate numbers in array #6
+def Remove(duplicate):
+    final_list = []
+    for num in duplicate:
+        if num not in final_list:
+            final_list.append(num)
+    return final_list
+     
+duplicate = [2, 4, 10, 20, 5, 2, 20, 4, 90, 2, 4]
+print(Remove(duplicate))
+
